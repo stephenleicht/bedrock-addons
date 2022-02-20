@@ -1,0 +1,5 @@
+const fireball = require('vanilla/behavior/entities/fireball.json')
+
+fireball['minecraft:entity'].component_groups['minecraft:exploding']['minecraft:explode'].breaks_blocks = false
+
+module.exports = fireball

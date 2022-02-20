@@ -1,0 +1,27 @@
+{
+	"format_version": "1.18.10",
+	"animation_controllers": {
+		"controller.animation.lonelynight.sleep_check": {
+			"initial_state": "inactive",
+			"states": {
+				"inactive": {
+					"transitions": [
+						{
+							"active": "query.is_sleeping"
+						}
+					]
+				},
+				"active": {
+					"animations": [
+						"sleeping"
+					],
+					"transitions": [
+						{
+							"inactive": "!query.is_sleeping"
+						}
+					]
+				}
+			}
+		}
+	}
+}

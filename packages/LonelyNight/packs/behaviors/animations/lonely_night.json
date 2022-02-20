@@ -1,0 +1,20 @@
+{
+	"format_version": "1.18.10",
+	"animations": {
+		"animation.lonelynight.sleeping": {
+			"loop": false,
+			"animation_length": 3.0,
+			"timeline": {
+				"0.0": "/title @a actionbar Sleeping through the night...",
+				"2.0": [
+					"/time set sunrise",
+					"/weather clear 36000"
+				],
+				"2.9": [
+					"/time add 2000",
+					"/title @s actionbar Good Morning!"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+const creeper = require('vanilla/behavior/entities/creeper.json')
+
+Object.values(creeper['minecraft:entity'].component_groups).forEach(group => {
+    if (group['minecraft:explode']) {
+        group['minecraft:explode'].breaks_blocks = false;
+    }
+})
+
+module.exports = creeper

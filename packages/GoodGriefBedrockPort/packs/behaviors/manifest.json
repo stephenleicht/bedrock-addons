@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "Good Grief - Bedrock Port",
+    "description": "Allows \"friendly\" mob griefing such as villagers and piglins while turning off things like creeper explosions breaking blocks",
+    "uuid": "145b7117-162a-489f-83dc-c0158cbf69ec",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "behaviours for Good Grief - Bedrock Port",
+      "type": "data",
+      "uuid": "8668ebfa-24a1-4fe8-86e9-de1e78720e45",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

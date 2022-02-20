@@ -1,0 +1,16 @@
+const player = require('vanilla/behavior/entities/player.json')
+
+player['minecraft:entity'].description = {
+    ...player['minecraft:entity'].description,
+    scripts: {
+        animate: [
+            "sleep_check"
+        ]
+    },
+    animations: {
+        "sleep_check": "controller.animation.lonelynight.sleep_check",
+        "sleeping": "animation.lonelynight.sleeping"
+    }
+}
+
+module.exports = player

@@ -1,0 +1,6 @@
+const enderman = require('vanilla/behavior/entities/enderman.json')
+
+delete enderman['minecraft:entity'].components['minecraft:behavior.enderman_leave_block']
+delete enderman['minecraft:entity'].components['minecraft:behavior.enderman_take_block']
+
+module.exports = enderman

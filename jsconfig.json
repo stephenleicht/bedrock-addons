@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "baseUrl": "./packages/",
+    "paths": {
+      "vanilla/*": [
+        "./vanilla/*"
+      ],
+      "cjson-plugin": [
+        "./cjson-plugin"
+      ]
+    },
+  }
+}

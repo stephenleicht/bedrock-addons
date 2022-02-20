@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "Lonely Night",
+    "description": "Pass through the night with only one player sleeping",
+    "uuid": "27af21e6-f11a-4a73-a115-a8d34b49281e",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "behaviours for Lonely Night",
+      "type": "data",
+      "uuid": "c17dee1b-fb22-4017-bca9-43384f109c36",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
