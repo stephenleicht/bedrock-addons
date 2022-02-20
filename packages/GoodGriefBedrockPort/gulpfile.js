@@ -1,8 +1,3 @@
-const MinecraftAddonBuilder = require("minecraft-addon-toolchain/v1");
-const CJSONPlugin = require('cjson-plugin')
+const getGulpConfig = require('buildutil')
 
-const builder = new MinecraftAddonBuilder("Good Grief - Bedrock Port");
-builder.addPlugin(new CJSONPlugin())
-
-
-module.exports = builder.configureEverythingForMe();
+module.exports = getGulpConfig("Good Grief - Bedrock Port")

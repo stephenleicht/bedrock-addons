@@ -7,8 +7,8 @@
       "vanilla/*": [
         "./vanilla/*"
       ],
-      "cjson-plugin": [
-        "./cjson-plugin"
+      "buildutil": [
+        "./buildutil"
       ]
     },
   }

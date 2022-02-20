@@ -11,8 +11,7 @@
     "clean": "gulp clean"
   },
   "devDependencies": {
-    "minecraft-addon-toolchain": "^1.0.3",
     "vanilla": "*",
-    "cjson-plugin": "*"
+    "buildutil": "*"
   }
 }

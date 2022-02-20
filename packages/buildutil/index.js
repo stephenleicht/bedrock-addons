@@ -1,7 +1,6 @@
 require('require-json5').replace()
 const through2 = require('through2')
-
-debugger;
+const MinecraftAddonBuilder = require("minecraft-addon-toolchain/v1");
 
 class CJSONPlugin {
     constructor() {
@@ -18,4 +17,10 @@ class CJSONPlugin {
     }
 }
 
-module.exports = CJSONPlugin
+
+module.exports = function getGulpConfig(addonName) {
+    const builder = new MinecraftAddonBuilder(addonName);
+    builder.addPlugin(new CJSONPlugin())
+
+    return builder.configureEverythingForMe();
+}
